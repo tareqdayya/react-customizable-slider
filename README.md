@@ -4,6 +4,7 @@
 UI of its own! it provides the logic, and you can create any thumb and track components
 you wish to use. 
 - Tested on Web and mobile browsers.
+- Requires **React >=16!**
 
 ![](demo.gif)
 
