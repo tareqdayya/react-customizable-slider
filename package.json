@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "An (almost) no-ui-assumptions-made slider component for react. Add your own track and thumb components and have the library worry about the logic implementation. Works for mobile and web.",
   "license": "MIT",
   "main": "dist/index.js",
