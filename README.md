@@ -5,8 +5,9 @@ UI of its own! it provides the logic, and you can create any thumb and track com
 you wish to use. 
 - Tested on Web and mobile browsers.
 
-## Basic Implementation:
+![](demo.gif)
 
+## Basic Implementation:
     const MyComponent = () => {
        const [value, setValue] = useState<number>(100);
      
@@ -43,4 +44,4 @@ There's an optional styling prop: <br/>
  container.
 * PRs are welcome.
 
-###Enjoy!
+### Enjoy!
