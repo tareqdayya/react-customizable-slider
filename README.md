@@ -17,9 +17,9 @@ you wish to use.
              max={200}
              min={50}
              value={value}
+             onChange={setValue}
              renderTrack={() => <div style={{ height: 2, background: '#c7c7c7', width: '100%' }} />}
              renderThumb={() => <div style={{ height: 15, width: 15, borderRadius: 50, background: 'blue' }} />}
-             onChange={setValue}
            />
      
            <h4>{value}</h4>
@@ -30,15 +30,16 @@ you wish to use.
 The props used in the example above are **all required!**
 
 There's an optional styling prop: <br/>
-`  styling?: {
-     containerStyle?: CSSProperties,
-     trackStyle?: CSSProperties,
-     thumbStyle?: CSSProperties,
-     containerClass?: string,
-     trackClass?: string,
-     thumbClass?: string,
-   };
-   `
+```
+    styling?: {  
+           containerStyle?: CSSProperties,
+           trackStyle?: CSSProperties, 
+           thumbStyle?: CSSProperties, 
+           containerClass?: string,
+           trackClass?: string,
+           thumbClass?: string, 
+         };
+```
 
 * It's best to control the slider's width by controlling the dimensions of the slider's parent
  container.
