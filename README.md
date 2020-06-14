@@ -8,6 +8,12 @@ you wish to use.
 
 ![](demo.gif)
 
+## Installation
+`yarn add react-customizable-slider`
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or
+                
+`npm i react-customizable-slider`
 ## Basic Implementation:
     const MyComponent = () => {
        const [value, setValue] = useState<number>(100);
