@@ -1,0 +1,9 @@
+/* disable text select: useful when using drag-and-drop [e.g. slider] */
+.no-select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
